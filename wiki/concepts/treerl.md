@@ -3,6 +3,9 @@ id: treerl
 type: concept
 title: TreeRL
 status: 시작 전
+relations:
+  extends:
+  - grpo
 tags:
 - RL
 notion_id: 2fc322ad-b4de-8060-bf89-e1960ff8c710

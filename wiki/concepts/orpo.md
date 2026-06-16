@@ -3,6 +3,9 @@ id: orpo
 type: concept
 title: ORPO
 status: 시작 전
+relations:
+  extends:
+  - dpo
 tags:
 - RL
 notion_id: 2e8322ad-b4de-803e-8c3b-e879b7666c6a

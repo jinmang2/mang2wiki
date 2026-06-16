@@ -3,6 +3,10 @@ id: verl
 type: concept
 title: verl
 status: 시작 전
+relations:
+  uses:
+  - ppo
+  - grpo
 tags:
 - RL
 - framework

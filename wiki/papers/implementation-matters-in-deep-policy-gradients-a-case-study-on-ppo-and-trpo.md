@@ -3,6 +3,9 @@ id: implementation-matters-in-deep-policy-gradients-a-case-study-on-ppo-and-trpo
 type: paper
 title: 'Implementation Matters In Deep Policy Gradients: A Case Study on PPO and TRPO'
 status: 시작 전
+relations:
+  compares:
+  - ppo
 tags:
 - RL
 notion_id: 30a322ad-b4de-8063-9cbe-fe082f6d0561

@@ -2,7 +2,10 @@
 id: rearank
 type: concept
 title: REARANK
-status: 시작 전
+status: 분석 중
+relations:
+  uses:
+  - grpo
 tags:
 - LLM
 - RL

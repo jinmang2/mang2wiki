@@ -2,7 +2,12 @@
 id: preference-learning-algorithms-do-not-learn-preference-rankings
 type: paper
 title: Preference Learning Algorithms Do Not Learn Preference Rankings
-status: 시작 전
+status: 분석 중
+relations:
+  compares:
+  - dpo
+  - rrhf
+  - simpo
 tags:
 - RL
 notion_id: 30f322ad-b4de-8031-8c6c-c5070cf8033f

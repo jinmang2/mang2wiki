@@ -2,7 +2,10 @@
 id: gdpo
 type: concept
 title: GDPO
-status: 시작 전
+status: 분석 중
+relations:
+  extends:
+  - dpo
 tags:
 - RL
 notion_id: 2fc322ad-b4de-803c-b3f6-e1967c6059b2

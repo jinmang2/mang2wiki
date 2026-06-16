@@ -3,6 +3,9 @@ id: vineppo
 type: concept
 title: VinePPO
 status: 시작 전
+relations:
+  extends:
+  - ppo
 tags:
 - RL
 notion_id: 2fc322ad-b4de-8027-93a4-c0646592ef93

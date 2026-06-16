@@ -3,6 +3,9 @@ id: dcpo
 type: concept
 title: DCPO
 status: 시작 전
+relations:
+  extends:
+  - grpo
 tags:
 - RL
 notion_id: 2fd322ad-b4de-8079-9a4b-cfb839014ead

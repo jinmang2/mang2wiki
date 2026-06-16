@@ -3,6 +3,9 @@ id: ddpg
 type: concept
 title: DDPG
 status: 시작 전
+relations:
+  extends:
+  - policy-gradient
 tags:
 - RL
 notion_id: 2e0322ad-b4de-805e-9790-fd96bbe34fe8

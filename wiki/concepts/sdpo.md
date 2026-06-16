@@ -3,6 +3,9 @@ id: sdpo
 type: concept
 title: SDPO
 status: 시작 전
+relations:
+  extends:
+  - dpo
 tags:
 - RL
 notion_id: 2fc322ad-b4de-80df-9724-f8f28f8c95be

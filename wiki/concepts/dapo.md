@@ -3,6 +3,9 @@ id: dapo
 type: concept
 title: DAPO
 status: 완료
+relations:
+  extends:
+  - grpo
 tags:
 - RL
 notion_id: 2fc322ad-b4de-8065-a25d-e17bf2fa6451

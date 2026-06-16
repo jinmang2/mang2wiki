@@ -3,6 +3,10 @@ id: deepseekmath
 type: concept
 title: DeepSeekMath
 status: 시작 전
+relations:
+  uses:
+  - grpo
+  - rlvr
 tags:
 - LLM
 - LLM-Component

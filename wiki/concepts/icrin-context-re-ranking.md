@@ -3,6 +3,9 @@ id: icrin-context-re-ranking
 type: concept
 title: ICR(in-context re-ranking)
 status: 시작 전
+relations:
+  uses:
+  - grpo
 tags:
 - LLM
 - RL

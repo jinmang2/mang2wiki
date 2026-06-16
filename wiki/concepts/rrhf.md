@@ -3,6 +3,11 @@ id: rrhf
 type: concept
 title: RRHF
 status: 완료
+relations:
+  extends:
+  - rlhf
+  compares:
+  - dpo
 tags:
 - RL
 - Train LLM

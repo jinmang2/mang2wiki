@@ -3,6 +3,12 @@ id: ppo
 type: concept
 title: PPO
 status: 시작 전
+relations:
+  extends:
+  - policy-gradient
+  cites:
+  - natural-policy-gradient
+  - conservative-policy-iteration
 tags:
 - RL
 notion_id: 2e0322ad-b4de-80eb-ace5-f50624c452cc

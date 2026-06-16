@@ -2,7 +2,10 @@
 id: rank-r1
 type: concept
 title: RANK-R1
-status: 시작 전
+status: 분석 중
+relations:
+  uses:
+  - grpo
 tags:
 - LLM
 - RL

@@ -2,7 +2,12 @@
 id: grpo
 type: concept
 title: GRPO
-status: 시작 전
+status: 분석 중
+relations:
+  extends:
+  - ppo
+  uses:
+  - rlvr
 tags:
 - RL
 notion_id: 2e8322ad-b4de-8032-bc9a-f12a5ec6357c

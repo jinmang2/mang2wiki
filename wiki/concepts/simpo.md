@@ -3,6 +3,9 @@ id: simpo
 type: concept
 title: SimPO
 status: 완료
+relations:
+  extends:
+  - dpo
 tags:
 - RL
 notion_id: 2fc322ad-b4de-8080-ba94-f4dd7052077c

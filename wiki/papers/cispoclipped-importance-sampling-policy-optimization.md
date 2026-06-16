@@ -3,6 +3,9 @@ id: cispoclipped-importance-sampling-policy-optimization
 type: paper
 title: CISPO(Clipped Importance Sampling Policy Optimization)
 status: 시작 전
+relations:
+  extends:
+  - grpo
 tags:
 - RL
 notion_id: 308322ad-b4de-8039-8a1e-ebe9f64b4095

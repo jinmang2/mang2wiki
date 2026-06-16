@@ -3,6 +3,9 @@ id: treerpo
 type: concept
 title: TreeRPO
 status: 시작 전
+relations:
+  extends:
+  - grpo
 tags:
 - RL
 notion_id: 2fc322ad-b4de-80da-bc60-d79c1fdb8014

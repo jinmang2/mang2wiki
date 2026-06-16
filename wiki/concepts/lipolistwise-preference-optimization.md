@@ -3,6 +3,9 @@ id: lipolistwise-preference-optimization
 type: concept
 title: LiPO(Listwise Preference Optimization)
 status: 시작 전
+relations:
+  extends:
+  - dpo
 tags:
 - RL
 - information retrieval

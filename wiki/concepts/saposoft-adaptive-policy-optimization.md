@@ -3,6 +3,9 @@ id: saposoft-adaptive-policy-optimization
 type: concept
 title: SAPO(Soft Adaptive Policy Optimization)
 status: 시작 전
+relations:
+  extends:
+  - grpo
 tags:
 - RL
 notion_id: 308322ad-b4de-805d-aedc-ecfa0d361cfa

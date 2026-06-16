@@ -3,6 +3,9 @@ id: rlhf
 type: concept
 title: RLHF
 status: 시작 전
+relations:
+  uses:
+  - ppo
 tags:
 - RL
 notion_id: 2e0322ad-b4de-8068-97b1-e24498f20fc1

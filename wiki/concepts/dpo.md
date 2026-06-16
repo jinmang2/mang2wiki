@@ -3,6 +3,9 @@ id: dpo
 type: concept
 title: DPO
 status: 완료
+relations:
+  extends:
+  - rlhf
 tags:
 - RL
 notion_id: 2e0322ad-b4de-8095-b7fb-e1b96f5f792b

@@ -3,6 +3,9 @@ id: cpocontrastive-preference-optimization
 type: concept
 title: CPO(Contrastive Preference Optimization)
 status: 시작 전
+relations:
+  extends:
+  - dpo
 tags:
 - RL
 notion_id: 30f322ad-b4de-8035-9966-e3f8caf4d9be

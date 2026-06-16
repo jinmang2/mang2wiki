@@ -3,6 +3,9 @@ id: propreference-ranking-optimization
 type: concept
 title: PRO(Preference Ranking Optimization)
 status: 시작 전
+relations:
+  extends:
+  - dpo
 tags:
 - RL
 - information retrieval

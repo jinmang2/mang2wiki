@@ -3,6 +3,9 @@ id: natural-policy-gradient
 type: concept
 title: Natural Policy Gradient
 status: 시작 전
+relations:
+  extends:
+  - policy-gradient
 tags:
 - RL
 notion_id: 30a322ad-b4de-8013-b696-d1f46cb3d2b3
