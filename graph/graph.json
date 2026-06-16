@@ -1,6 +1,2470 @@
 {
   "nodes": [
     {
+      "id": "2d-rope",
+      "type": "concept",
+      "title": "2D-RoPE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Multimodal LLM"
+      ]
+    },
+    {
+      "id": "accelerate",
+      "type": "concept",
+      "title": "accelerate",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Distributed"
+      ]
+    },
+    {
+      "id": "acurank",
+      "type": "concept",
+      "title": "AcuRank",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "information retrieval",
+        "reranker"
+      ]
+    },
+    {
+      "id": "akvq-not-quant",
+      "type": "concept",
+      "title": "AKVQ (not quant)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "alce",
+      "type": "concept",
+      "title": "ALCE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "ance",
+      "type": "concept",
+      "title": "ANCE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "annapproximate-nearest-neighbor",
+      "type": "concept",
+      "title": "ANN(Approximate Nearest Neighbor)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "aphrodite-engine",
+      "type": "concept",
+      "title": "aphrodite-engine",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "aqlm",
+      "type": "concept",
+      "title": "AQLM",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "ar2",
+      "type": "concept",
+      "title": "AR2",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "attention-collections",
+      "type": "concept",
+      "title": "Attention Collections",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "attention-sink",
+      "type": "concept",
+      "title": "Attention Sink",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "modern transformers"
+      ]
+    },
+    {
+      "id": "autogptq",
+      "type": "concept",
+      "title": "AutoGPTQ",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "autoround",
+      "type": "concept",
+      "title": "AutoRound",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "awq",
+      "type": "concept",
+      "title": "AWQ",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "axolotl",
+      "type": "concept",
+      "title": "axolotl",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "baleen",
+      "type": "concept",
+      "title": "Baleen",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "beam-search",
+      "type": "concept",
+      "title": "Beam Search",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "billm",
+      "type": "concept",
+      "title": "BiLLM",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "cbdrconfidence-based-dynamic-retrieval",
+      "type": "concept",
+      "title": "CBDR(Confidence-Based Dynamic Retrieval)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "chat-template",
+      "type": "concept",
+      "title": "chat_template",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "chat",
+        "huggingface",
+        "inference"
+      ]
+    },
+    {
+      "id": "cocondenser",
+      "type": "concept",
+      "title": "coCondenser",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "colbert-serve",
+      "type": "concept",
+      "title": "ColBERT-serve",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "colbert-v1",
+      "type": "concept",
+      "title": "ColBERT v1",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "colbert-v2-lotte",
+      "type": "concept",
+      "title": "ColBERT v2 & LoTTE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "conservative-policy-iteration",
+      "type": "concept",
+      "title": "Conservative Policy Iteration",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "continuous-batching",
+      "type": "concept",
+      "title": "continuous batching",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference",
+        "vllm"
+      ]
+    },
+    {
+      "id": "contrastive-search",
+      "type": "concept",
+      "title": "contrastive search",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "contriever",
+      "type": "concept",
+      "title": "Contriever",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "cope",
+      "type": "concept",
+      "title": "CoPE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "cosent",
+      "type": "concept",
+      "title": "CoSENT",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "SSL",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "cpocontrastive-preference-optimization",
+      "type": "concept",
+      "title": "CPO(Contrastive Preference Optimization)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "dapo",
+      "type": "concept",
+      "title": "DAPO",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "datatrove",
+      "type": "concept",
+      "title": "datatrove",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "parse-data"
+      ]
+    },
+    {
+      "id": "dcpo",
+      "type": "concept",
+      "title": "DCPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "ddpg",
+      "type": "concept",
+      "title": "DDPG",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "deepseekmath",
+      "type": "concept",
+      "title": "DeepSeekMath",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "LLM-Component",
+        "RL",
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "deepspeed",
+      "type": "concept",
+      "title": "deepspeed",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Distributed"
+      ]
+    },
+    {
+      "id": "df-flops",
+      "type": "concept",
+      "title": "DF-FLOPS",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "dflash",
+      "type": "concept",
+      "title": "DFlash",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "dpo",
+      "type": "concept",
+      "title": "DPO",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "dprdense-passage-retrieval",
+      "type": "concept",
+      "title": "DPR(Dense Passage Retrieval)",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "dr-grpo",
+      "type": "concept",
+      "title": "Dr. GRPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "duquant",
+      "type": "concept",
+      "title": "DuQuant",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "efficient-splade",
+      "type": "concept",
+      "title": "efficient SPLADE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "efficientqat",
+      "type": "concept",
+      "title": "EfficientQAT",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "embeddinggemma",
+      "type": "concept",
+      "title": "EmbeddingGemma",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "embedding",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "erank",
+      "type": "concept",
+      "title": "ERank",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "RL",
+        "Train LLM",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "expanded-splade",
+      "type": "concept",
+      "title": "Expanded-SPLADE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "ezaudio",
+      "type": "concept",
+      "title": "EzAudio",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Audio"
+      ]
+    },
+    {
+      "id": "fastlane",
+      "type": "concept",
+      "title": "FastLane",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "flan",
+      "type": "concept",
+      "title": "FLAN",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "flash-attention",
+      "type": "concept",
+      "title": "flash-attention",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component",
+        "inference"
+      ]
+    },
+    {
+      "id": "flexattention",
+      "type": "concept",
+      "title": "FlexAttention",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component",
+        "inference"
+      ]
+    },
+    {
+      "id": "fp8-fp4-inference",
+      "type": "concept",
+      "title": "FP8/FP4 inference",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "from-pretrained",
+      "type": "concept",
+      "title": "from_pretrained",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "huggingface",
+        "repo:transformers"
+      ]
+    },
+    {
+      "id": "fsdp",
+      "type": "concept",
+      "title": "FSDP",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Distributed"
+      ]
+    },
+    {
+      "id": "gateddeltanet",
+      "type": "concept",
+      "title": "GatedDeltaNet",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "gdpo",
+      "type": "concept",
+      "title": "GDPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "gecko",
+      "type": "concept",
+      "title": "Gecko",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "embedding",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "gemini-embedding",
+      "type": "concept",
+      "title": "gemini embedding",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "embedding",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "gemma-2",
+      "type": "concept",
+      "title": "Gemma 2",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "gguf",
+      "type": "concept",
+      "title": "GGUF",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "gibbs-inequality",
+      "type": "concept",
+      "title": "Gibb’s Inequality",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "fundamental",
+        "mathematical-analysis"
+      ]
+    },
+    {
+      "id": "gptq-lora-alpha-impact",
+      "type": "concept",
+      "title": "GPTQ lora_alpha impact",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "gptq",
+      "type": "concept",
+      "title": "GPTQ",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "gradcache",
+      "type": "concept",
+      "title": "GradCache",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "SSL",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "gradient-checkpoint",
+      "type": "concept",
+      "title": "gradient checkpoint",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "greedy-search",
+      "type": "concept",
+      "title": "Greedy Search",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "group-query-attention",
+      "type": "concept",
+      "title": "group query attention",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component",
+        "inference"
+      ]
+    },
+    {
+      "id": "group-relative-po-family",
+      "type": "concept",
+      "title": "Group-relative PO-family",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "RL"
+      ]
+    },
+    {
+      "id": "grpo",
+      "type": "concept",
+      "title": "GRPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "gs-moe",
+      "type": "concept",
+      "title": "GS-MoE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "gspo",
+      "type": "concept",
+      "title": "GSPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "gtpo-grpo-s",
+      "type": "concept",
+      "title": "GTPO & GRPO-S",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "hard-negative-mining",
+      "type": "concept",
+      "title": "Hard Negative Mining",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "hard-negatives-hard-lessons",
+      "type": "concept",
+      "title": "Hard Negatives, Hard Lessons",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "higgs",
+      "type": "concept",
+      "title": "HIGGS",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "hnsw",
+      "type": "concept",
+      "title": "HNSW",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "hqq",
+      "type": "concept",
+      "title": "HQQ",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "icrin-context-re-ranking",
+      "type": "concept",
+      "title": "ICR(in-context re-ranking)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "RL"
+      ]
+    },
+    {
+      "id": "importance-sampling",
+      "type": "concept",
+      "title": "Importance Sampling",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "fundamental"
+      ]
+    },
+    {
+      "id": "inference-free-splade",
+      "type": "concept",
+      "title": "Inference-Free SPLADE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "ivf-pq",
+      "type": "concept",
+      "title": "IVF-PQ",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "jina-colbert-v1-2",
+      "type": "concept",
+      "title": "Jina-ColBERT-v1/2",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "jina-reranker-v3",
+      "type": "concept",
+      "title": "jina-reranker-v3",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval",
+        "reranker"
+      ]
+    },
+    {
+      "id": "k-means",
+      "type": "concept",
+      "title": "K-means",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "clustring"
+      ]
+    },
+    {
+      "id": "kanana-v",
+      "type": "concept",
+      "title": "Kanana-V",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Multimodal LLM"
+      ]
+    },
+    {
+      "id": "kernel-fusion",
+      "type": "concept",
+      "title": "Kernel fusion",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "kivi",
+      "type": "concept",
+      "title": "KIVI",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "kl-approximation",
+      "type": "concept",
+      "title": "KL Approximation",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "fundamental"
+      ]
+    },
+    {
+      "id": "kl-divergence",
+      "type": "concept",
+      "title": "KL Divergence",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "fundamental"
+      ]
+    },
+    {
+      "id": "kv-cache",
+      "type": "concept",
+      "title": "KV Cache",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "kvquant",
+      "type": "concept",
+      "title": "KVQuant",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "lagas",
+      "type": "concept",
+      "title": "LAGAS",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "evaluation_metric",
+        "framework",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "layoutlm",
+      "type": "concept",
+      "title": "LayoutLM",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "OCR"
+      ]
+    },
+    {
+      "id": "lipolistwise-preference-optimization",
+      "type": "concept",
+      "title": "LiPO(Listwise Preference Optimization)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "llama-1",
+      "type": "concept",
+      "title": "LLaMA-1",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "llm-compressor",
+      "type": "concept",
+      "title": "llm-compressor",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "llm2vec",
+      "type": "concept",
+      "title": "LLM2Vec",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "llmint8",
+      "type": "concept",
+      "title": "LLM.int8()",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "loftq",
+      "type": "concept",
+      "title": "LoftQ",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "longrope",
+      "type": "concept",
+      "title": "LongRoPE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "lshlocality-sensitive-hasing",
+      "type": "concept",
+      "title": "LSH(Locality-sensitive hasing)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "luspolength-unbiased-sequence-preference-optimization",
+      "type": "concept",
+      "title": "LUSPO(Length-Unbiased Sequence Preference Optimization)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "m-rope",
+      "type": "concept",
+      "title": "M-RoPE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Multimodal LLM"
+      ]
+    },
+    {
+      "id": "m3-embedding-bge-m3",
+      "type": "concept",
+      "title": "M3-Embedding (BGE-m3)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "embedding",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "mamba",
+      "type": "concept",
+      "title": "mamba",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "SSM"
+      ]
+    },
+    {
+      "id": "map",
+      "type": "concept",
+      "title": "MAP",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "evaluation_metric",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "memorizing-transformers",
+      "type": "concept",
+      "title": "Memorizing Transformers",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "mgfn",
+      "type": "concept",
+      "title": "MGFN",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "mil",
+      "type": "concept",
+      "title": "MIL",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "milvus",
+      "type": "concept",
+      "title": "Milvus",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval",
+        "vectorDB"
+      ]
+    },
+    {
+      "id": "minimax-m1",
+      "type": "concept",
+      "title": "MiniMax-M1",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "mipsmaximum-inner-product-search",
+      "type": "concept",
+      "title": "MIPS(Maximum Inner Product Search)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "mixture-of-experts",
+      "type": "concept",
+      "title": "Mixture of Experts",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "mrr",
+      "type": "concept",
+      "title": "MRR",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "evaluation_metric",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "mteb",
+      "type": "concept",
+      "title": "MTEB",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "dataset",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "mtp",
+      "type": "concept",
+      "title": "MTP",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM",
+        "inference"
+      ]
+    },
+    {
+      "id": "multi-head-latent-attention",
+      "type": "concept",
+      "title": "multi-head latent attention",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component",
+        "inference"
+      ]
+    },
+    {
+      "id": "multi-query-attention",
+      "type": "concept",
+      "title": "multi query attention",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component",
+        "inference"
+      ]
+    },
+    {
+      "id": "multi-token-prediction",
+      "type": "concept",
+      "title": "Multi Token Prediction",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "natural-policy-gradient",
+      "type": "concept",
+      "title": "Natural Policy Gradient",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "ndcg",
+      "type": "concept",
+      "title": "nDCG",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "evaluation_metric",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "noisy-gradient",
+      "type": "concept",
+      "title": "Noisy Gradient",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "fundamental"
+      ]
+    },
+    {
+      "id": "nv-retriever",
+      "type": "concept",
+      "title": "NV-Retriever",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "orpo",
+      "type": "concept",
+      "title": "ORPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "pagedattention",
+      "type": "concept",
+      "title": "PagedAttention",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "plaid",
+      "type": "concept",
+      "title": "PLAID",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "policy-gradient",
+      "type": "concept",
+      "title": "Policy Gradient",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "poly-encoder",
+      "type": "concept",
+      "title": "Poly-Encoder",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "ppo",
+      "type": "concept",
+      "title": "PPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "propreference-ranking-optimization",
+      "type": "concept",
+      "title": "PRO(Preference Ranking Optimization)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "prppairwise-ranking-prompting",
+      "type": "concept",
+      "title": "PRP(Pairwise Ranking Prompting)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "py-pdf-loader",
+      "type": "concept",
+      "title": "py-pdf-loader",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "parse-data"
+      ]
+    },
+    {
+      "id": "pyramidkv-not-quant",
+      "type": "concept",
+      "title": "PyramidKV (not quant)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "qknorm",
+      "type": "concept",
+      "title": "QKNorm",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "qlora",
+      "type": "concept",
+      "title": "QLoRA",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "quantization",
+      "type": "concept",
+      "title": "Quantization",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "quarot",
+      "type": "concept",
+      "title": "QuaRot",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "quip",
+      "type": "concept",
+      "title": "QuIP#",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "qwen3-embedding",
+      "type": "concept",
+      "title": "Qwen3 Embedding",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "embedding",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "rank-r1",
+      "type": "concept",
+      "title": "RANK-R1",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "RL"
+      ]
+    },
+    {
+      "id": "rankgpt-rankllm",
+      "type": "concept",
+      "title": "RankGPT (RankLLM)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "information retrieval",
+        "reranker"
+      ]
+    },
+    {
+      "id": "rankzephyr",
+      "type": "concept",
+      "title": "RankZephyr",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "information retrieval",
+        "reranker"
+      ]
+    },
+    {
+      "id": "ray",
+      "type": "concept",
+      "title": "Ray",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Distributed"
+      ]
+    },
+    {
+      "id": "rearank",
+      "type": "concept",
+      "title": "REARANK",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "RL"
+      ]
+    },
+    {
+      "id": "reinceforce-rloo",
+      "type": "concept",
+      "title": "REINCEFORCE, RLOO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "retromae",
+      "type": "concept",
+      "title": "RetroMAE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "rlhf",
+      "type": "concept",
+      "title": "RLHF",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "rlvr",
+      "type": "concept",
+      "title": "RLVR",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "rocketqa-v1",
+      "type": "concept",
+      "title": "RocketQA v1",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "dataset",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "rocketqa-v2",
+      "type": "concept",
+      "title": "RocketQA v2",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "rope-collections",
+      "type": "concept",
+      "title": "RoPE collections",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "rope",
+      "type": "concept",
+      "title": "RoPE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "rrfreciprocal-rank-fusion",
+      "type": "concept",
+      "title": "RRF(Reciprocal Rank Fusion)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "rrhf",
+      "type": "concept",
+      "title": "RRHF",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL",
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "rtfm",
+      "type": "concept",
+      "title": "RTFM",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "rvle",
+      "type": "concept",
+      "title": "RVLE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "saposoft-adaptive-policy-optimization",
+      "type": "concept",
+      "title": "SAPO(Soft Adaptive Policy Optimization)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "scaling-laws-for-llms",
+      "type": "concept",
+      "title": "scaling laws for LLMs",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "scalrself-calibrated-listwise-reranking",
+      "type": "concept",
+      "title": "SCaLR(Self-Calibrated Listwise Reranking)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "sdpo",
+      "type": "concept",
+      "title": "SDPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "sentencetransformers",
+      "type": "concept",
+      "title": "SentenceTransformers",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "id": "simans",
+      "type": "concept",
+      "title": "SimANS",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "simpo",
+      "type": "concept",
+      "title": "SimPO",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "sinq",
+      "type": "concept",
+      "title": "SINQ",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "slidingwindowattention",
+      "type": "concept",
+      "title": "SlidingWindowAttention",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "smoothquant",
+      "type": "concept",
+      "title": "SmoothQuant",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "snapkv-not-quant",
+      "type": "concept",
+      "title": "SnapKV (not quant)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "softcapping-qk-norm",
+      "type": "concept",
+      "title": "Softcapping & QK-Norm",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "spark",
+      "type": "concept",
+      "title": "SPARK",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "speculative-decoding",
+      "type": "concept",
+      "title": "speculative decoding",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "spinquant",
+      "type": "concept",
+      "title": "SpinQuant",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "splade-v1",
+      "type": "concept",
+      "title": "SPLADE v1",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "splade-v2",
+      "type": "concept",
+      "title": "SPLADE v2",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "splade",
+      "type": "concept",
+      "title": "SPLADE++",
+      "status": "완료",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "spo",
+      "type": "concept",
+      "title": "SPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "spqr",
+      "type": "concept",
+      "title": "SpQR",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "ssrl",
+      "type": "concept",
+      "title": "SSRL",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "stable-diffusion-3-medium",
+      "type": "concept",
+      "title": "Stable Diffusion 3 Medium",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Diffusion"
+      ]
+    },
+    {
+      "id": "stepwise-think-critique",
+      "type": "concept",
+      "title": "Stepwise Think-Critique",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "tempo",
+      "type": "concept",
+      "title": "TEMPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "tevad",
+      "type": "concept",
+      "title": "TEVAD",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "tf-idf-bm25",
+      "type": "concept",
+      "title": "tf-idf / bm25",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "tool-retrieval-benckmark",
+      "type": "concept",
+      "title": "Tool-Retrieval-Benckmark",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "top-k-sampling",
+      "type": "concept",
+      "title": "Top-k Sampling",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "top-p-sampling",
+      "type": "concept",
+      "title": "Top-p Sampling",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "tpwng",
+      "type": "concept",
+      "title": "TPWNG",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "treerl",
+      "type": "concept",
+      "title": "TreeRL",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "treerpo",
+      "type": "concept",
+      "title": "TreeRPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "triton",
+      "type": "concept",
+      "title": "triton",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Distributed"
+      ]
+    },
+    {
+      "id": "trulens",
+      "type": "concept",
+      "title": "TruLens",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "evaluation_metric",
+        "framework",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "tsa",
+      "type": "concept",
+      "title": "TSA",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "turboquant",
+      "type": "concept",
+      "title": "TurboQuant",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "typical-decoding",
+      "type": "concept",
+      "title": "Typical Decoding",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "udapdr",
+      "type": "concept",
+      "title": "UDAPDR",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "umil",
+      "type": "concept",
+      "title": "UMIL",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "unbiased-estimators",
+      "type": "concept",
+      "title": "Unbiased Estimators",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "fundamental"
+      ]
+    },
+    {
+      "id": "ur-dmu",
+      "type": "concept",
+      "title": "UR-DMU",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "vadclip",
+      "type": "concept",
+      "title": "VadCLIP",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "verl",
+      "type": "concept",
+      "title": "verl",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL",
+        "framework"
+      ]
+    },
+    {
+      "id": "vineppo",
+      "type": "concept",
+      "title": "VinePPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "weaviate",
+      "type": "concept",
+      "title": "weaviate",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval",
+        "vectorDB"
+      ]
+    },
+    {
+      "id": "wsal",
+      "type": "concept",
+      "title": "WSAL",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "anomaly detection",
+        "video"
+      ]
+    },
+    {
+      "id": "yarn",
+      "type": "concept",
+      "title": "YaRN",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "zero",
+      "type": "concept",
+      "title": "ZeRO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Distributed"
+      ]
+    },
+    {
+      "id": "검색-엔진을-위한-평가지표들",
+      "type": "concept",
+      "title": "검색 엔진을 위한 평가지표들",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "a-bootstrap-perspective-on-stochastic-gradient-descent",
+      "type": "paper",
+      "title": "A Bootstrap Perspective on Stochastic Gradient Descent",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "fundamental"
+      ]
+    },
+    {
+      "id": "a-contrastive-framework-for-learning-sentence-representations-from-pairwise-and-triple-wise-perspective-in-angular-space",
+      "type": "paper",
+      "title": "A Contrastive Framework for Learning Sentence Representations from\nPairwise and Triple-wise Perspective in Angular Space",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "SSL"
+      ]
+    },
+    {
+      "id": "a-visual-guide-to-quantization",
+      "type": "paper",
+      "title": "A Visual Guide to Quantization",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "posting",
+        "quantization"
+      ]
+    },
+    {
+      "id": "accelerate-large-model-training-using-pytorch-fully-sharded-data-parallel",
+      "type": "paper",
+      "title": "Accelerate Large Model Training using PyTorch Fully Sharded Data Parallel",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Distributed"
+      ]
+    },
+    {
+      "id": "an-explanation-of-in-context-learning-as-implicit-bayesian-inference",
+      "type": "paper",
+      "title": "An Explanation of In-context Learning as Implicit Bayesian Inference",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "atlas-few-shot-learning-with-retrieval-augmented-language-models",
+      "type": "paper",
+      "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "beir-a-heterogenous-benchmark-for-zero-shot-evaluation-of-information-retrieval-models",
+      "type": "paper",
+      "title": "BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "dataset",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "beyond-model-collapse-scaling-up-with-synthesized-data-requires-verification",
+      "type": "paper",
+      "title": "Beyond Model Collapse: Scaling Up with Synthesized Data Requires Verification",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "cispoclipped-importance-sampling-policy-optimization",
+      "type": "paper",
+      "title": "CISPO(Clipped Importance Sampling Policy Optimization)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "coco-lm-correcting-and-contrasting-text-sequences-for-language-model-pretraining",
+      "type": "paper",
+      "title": "COCO-LM: Correcting and Contrasting Text Sequences for Language Model Pretraining",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "colbert-v1-v2-lotte",
+      "type": "paper",
+      "title": "ColBERT v1, v2 & LoTTE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "dataset",
+        "information retrieval"
+      ]
+    },
+    {
       "id": "colbert",
       "type": "paper",
       "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
@@ -11,6 +2475,943 @@
         "retrieval",
         "late-interaction",
         "bert"
+      ]
+    },
+    {
+      "id": "contrastive-learning-with-hard-negative-samples",
+      "type": "paper",
+      "title": "Contrastive Learning with Hard Negative Samples",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "SSL"
+      ]
+    },
+    {
+      "id": "corrective-rag",
+      "type": "paper",
+      "title": "Corrective RAG",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "cot-chain-of-thought-prompting-elicits-reasoning-in-large-language-models",
+      "type": "paper",
+      "title": "CoT: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "dont-say-that-making-inconsistent-dialogue-unlikely-with-unlikelihood-training",
+      "type": "paper",
+      "title": "Don’t Say That!\nMaking Inconsistent Dialogue Unlikely with Unlikelihood Training",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "e5-embeddings-from-bi-directional-encoder-representation",
+      "type": "paper",
+      "title": "E5: Embeddings from Bi-directional Encoder Representation",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "ehi-end-to-end-learning-of-hierarchical-index-for-efficient-dense-retrieval",
+      "type": "paper",
+      "title": "EHI: End-to-end Learning of Hierarchical Index for Efficient Dense Retrieval",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "enhancing-llms-cognition-via-structurization",
+      "type": "paper",
+      "title": "Enhancing LLM's Cognition via Structurization",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "fid-leveraging-passage-retrieval-with-generative-models-for-open-domain-question-answering",
+      "type": "paper",
+      "title": "FiD: Leveraging Passage Retrieval with Generative Models\nfor Open Domain Question Answering",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "fine-tuning-llms-to-158bit-extreme-quantization-made-easy",
+      "type": "paper",
+      "title": "Fine-tuning LLMs to 1.58bit: extreme quantization made easy",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM",
+        "huggingface",
+        "posting",
+        "quantization"
+      ]
+    },
+    {
+      "id": "fit-more-and-train-faster-with-zero-via-deepspeed-and-fairscale",
+      "type": "paper",
+      "title": "Fit More and Train Faster With ZeRO via DeepSpeed and FairScale",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Distributed"
+      ]
+    },
+    {
+      "id": "from-pytorch-ddp-to-accelerate-to-trainer-mastery-of-distributed-training-with-ease",
+      "type": "paper",
+      "title": "From PyTorch DDP to Accelerate to Trainer, mastery of distributed training with ease",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Distributed"
+      ]
+    },
+    {
+      "id": "gemma4",
+      "type": "paper",
+      "title": "Gemma4",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "foundation model"
+      ]
+    },
+    {
+      "id": "generalized-entropy-regularization-or-theres-nothing-special-about-label-smoothing",
+      "type": "paper",
+      "title": "Generalized Entropy Regularization or:\nThere’s Nothing Special about Label Smoothing",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "ggml을-이용한-간단한-matmul-샘플-구현",
+      "type": "paper",
+      "title": "ggml을 이용한 간단한 matmul 샘플 구현",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "gpl-generative-pseudo-labeling-for-unsupervised-domain-adaptation-of-dense-retrieval",
+      "type": "paper",
+      "title": "GPL: Generative Pseudo Labeling for Unsupervised Domain Adaptation of Dense Retrieval",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "SSL",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "graphrag",
+      "type": "paper",
+      "title": "GraphRAG",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "grpsecretly-a-process-reward-model-is-s",
+      "type": "paper",
+      "title": "GRPSecretly a Process Reward Model is s",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "gte-general-text-embedding",
+      "type": "paper",
+      "title": "GTE: General Text Embedding",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "embedding",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "gtr-large-dual-encoders-are-generalizable-retrievers",
+      "type": "paper",
+      "title": "GTR: Large Dual Encoders Are Generalizable Retrievers",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "how-good-are-llm-based-rerankers",
+      "type": "paper",
+      "title": "How Good are LLM-based Rerankers?",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "information retrieval",
+        "reranker"
+      ]
+    },
+    {
+      "id": "how-to-fine-tune-llms-in-2024-with-hugging-face",
+      "type": "paper",
+      "title": "How to Fine-Tune LLMs in 2024 with Hugging Face",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "huggingface",
+        "posting"
+      ]
+    },
+    {
+      "id": "how-to-prune-and-distill-llama-31-8b-to-an-nvidia-llama-31-minitron-4b-model",
+      "type": "paper",
+      "title": "How to Prune and Distill Llama-3.1 8B to an NVIDIA Llama-3.1-Minitron 4B Model",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "posting",
+        "quantization"
+      ]
+    },
+    {
+      "id": "hyde",
+      "type": "paper",
+      "title": "HyDE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "ia3-ia³-few-shot-parameter-efficient-fine-tuning-is-better-and-cheaper-than-in-context-learning",
+      "type": "paper",
+      "title": "IA3: [(IA)³] Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "if-beam-search-is-the-answer-what-was-the-question",
+      "type": "paper",
+      "title": "If Beam Search is the Answer, What was the Question?",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "implementation-matters-in-deep-policy-gradients-a-case-study-on-ppo-and-trpo",
+      "type": "paper",
+      "title": "Implementation Matters In Deep Policy Gradients: A Case Study on PPO and TRPO",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "improving-efficient-neural-ranking-models-with-cross-architecture-knowledge-distillation",
+      "type": "paper",
+      "title": "Improving Efficient Neural Ranking Models with\nCross-Architecture Knowledge Distillation",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "distillation",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "interleaving-rope-nope-irope-p-rope",
+      "type": "paper",
+      "title": "Interleaving RoPE (NoPE, iRoPE, p-RoPE)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "is-map-decoding-all-you-need-the-inadequacy-of-the-mode-in-neural-machine-translation",
+      "type": "paper",
+      "title": "Is MAP Decoding All You Need?\nThe Inadequacy of the Mode in Neural Machine Translation",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "late-interaction-model",
+      "type": "paper",
+      "title": "Late Interaction Model",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "learning-to-rank-ltr",
+      "type": "paper",
+      "title": "Learning to Rank (LTR)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "learning-to-rank-with-top-k-fairness",
+      "type": "paper",
+      "title": "Learning to Rank with Top-K Fairness",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Recommendation"
+      ]
+    },
+    {
+      "id": "learning-to-reason-in-13-parameters",
+      "type": "paper",
+      "title": "Learning to Reason in 13 Parameters",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "learning-to-retrieve-ltre",
+      "type": "paper",
+      "title": "Learning to Retrieve (LTRe)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "let-me-speak-freely-a-study-on-the-impact-of-format-restrictions-on-performance-of-large-language-models",
+      "type": "paper",
+      "title": "Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "RAG"
+      ]
+    },
+    {
+      "id": "ligerlinearizing-llms-to-gated-recurrent-structures",
+      "type": "paper",
+      "title": "LIGER(Linearizing LLMs to gated recurrent structures)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "lite-lightweight-scoring-with-token-einsum",
+      "type": "paper",
+      "title": "LITE: lightweight scoring with token einsum",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "lora-low-rank-adaptation-of-large-language-models",
+      "type": "paper",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "loss-function-for-embedding-model",
+      "type": "paper",
+      "title": "Loss function for Embedding Model",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "embedding",
+        "information retrieval",
+        "loss"
+      ]
+    },
+    {
+      "id": "matryoshka-representation-learning",
+      "type": "paper",
+      "title": "Matryoshka Representation Learning",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "memory3-language-modeling-with-explicit-memory",
+      "type": "paper",
+      "title": "Memory3 : Language Modeling with Explicit Memory",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "RAG"
+      ]
+    },
+    {
+      "id": "methods-of-improving-llm-training-stability-soft-capping-qk-norm",
+      "type": "paper",
+      "title": "Methods of improving LLM training stability (soft-capping + QK-Norm)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "ms-marco-a-human-generated-machine-reading-comprehension-dataset",
+      "type": "paper",
+      "title": "MS MARCO: A Human Generated MAchine Reading COmprehension Dataset",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "dataset",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "muvera-multi-vector-retrieval-via-fixed-dimensional-encodings",
+      "type": "paper",
+      "title": "MUVERA: Multi-Vector Retrieval via Fixed Dimensional Encodings",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "on-nmt-search-errors-and-model-errors-cat-got-your-tongue",
+      "type": "paper",
+      "title": "On NMT Search Errors and Model Errors: Cat Got Your Tongue?",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "one-step-off-policy-async-trainer",
+      "type": "paper",
+      "title": "One Step Off Policy Async Trainer",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL",
+        "framework"
+      ]
+    },
+    {
+      "id": "p-roperound-and-round-we-go",
+      "type": "paper",
+      "title": "p-RoPE:Round and Round We Go!",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Train LLM",
+        "fundamental"
+      ]
+    },
+    {
+      "id": "palm-scaling-language-modeling-with-pathways",
+      "type": "paper",
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "paq-65-million-probably-asked-questions-and-what-you-can-do-with-them",
+      "type": "paper",
+      "title": "PAQ: 65 Million Probably-Asked Questions and What You Can Do With Them",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "preference-learning-algorithms-do-not-learn-preference-rankings",
+      "type": "paper",
+      "title": "Preference Learning Algorithms Do Not Learn Preference Rankings",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "ptq-post-training-quantization",
+      "type": "paper",
+      "title": "PTQ (Post Training Quantization)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "qat-quantization-aware-training",
+      "type": "paper",
+      "title": "QAT (Quantization Aware Training)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "quantization"
+      ]
+    },
+    {
+      "id": "qve-synthetic-question-value-estimation-for-domain-adaptation-of-question-answering",
+      "type": "paper",
+      "title": "QVE: Synthetic Question Value Estimation for Domain Adaptation of Question Answering",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "qwen35",
+      "type": "paper",
+      "title": "Qwen3.5",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "foundation model"
+      ]
+    },
+    {
+      "id": "ra-dit-retrieval-augmented-dual-instruction-tuning",
+      "type": "paper",
+      "title": "RA-DIT: Retrieval-Augmented Dual Instruction Tuning",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG",
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "raft-adapting-language-model-to-domain-specific-rag",
+      "type": "paper",
+      "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "rag-retrieval-augmented-generation-for-knowledge-intensive-nlp-tasks",
+      "type": "paper",
+      "title": "RAG: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "ragatouile",
+      "type": "paper",
+      "title": "RAGatouile",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG",
+        "framework",
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "realm-retrieval-augmented-language-model-pre-training",
+      "type": "paper",
+      "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG",
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "retrieval-augmentation-reduces-hallucination-in-conversation",
+      "type": "paper",
+      "title": "Retrieval Augmentation Reduces Hallucination in Conversation",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "retro-improving-language-models-by-retrieving-from-trillions-of-tokens",
+      "type": "paper",
+      "title": "RETRO: Improving language models by retrieving\nfrom trillions of tokens",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM",
+        "RAG"
+      ]
+    },
+    {
+      "id": "revisiting-the-uniform-information-density-hypothesis",
+      "type": "paper",
+      "title": "Revisiting the Uniform Information Density Hypothesis",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "rope-scaling-pi-dynamic-ntk-yarn-llama3",
+      "type": "paper",
+      "title": "RoPE-scaling (PI, Dynamic NTK, YaRN, llama3)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component"
+      ]
+    },
+    {
+      "id": "sail-search-augmented-instruction-learning",
+      "type": "paper",
+      "title": "SAIL: Search-Augmented Instruction Learning",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG",
+        "Train LLM"
+      ]
+    },
+    {
+      "id": "sam-2-segment-anything-in-images-and-videos",
+      "type": "paper",
+      "title": "SAM 2: Segment Anything in Images and Videos",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "sam-3-segment-anything-with-concepts",
+      "type": "paper",
+      "title": "SAM 3: Segment Anything with Concepts",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "scaling-laws-of-rope-based-extrapolation",
+      "type": "paper",
+      "title": "Scaling Laws of RoPE-based Extrapolation",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component",
+        "Train LLM",
+        "Training Tips",
+        "fundamental"
+      ]
+    },
+    {
+      "id": "scheduling",
+      "type": "paper",
+      "title": "scheduling",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Training Tips"
+      ]
+    },
+    {
+      "id": "self-rag",
+      "type": "paper",
+      "title": "Self-RAG",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "simcls-a-simple-framework-for-contrastive-learning-of-abstractive-summarization",
+      "type": "paper",
+      "title": "SimCLS: A Simple Framework for Contrastive Learning of Abstractive Summarization",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "SSL"
+      ]
+    },
+    {
+      "id": "sparse-dense-and-attentional-representations-for-text-retrieval",
+      "type": "paper",
+      "title": "Sparse, Dense, and Attentional Representations for Text Retrieval",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval",
+        "mathematical-analysis"
+      ]
+    },
+    {
+      "id": "splade-sparse-lexical-and-expansion-model",
+      "type": "paper",
+      "title": "SPLADE (Sparse Lexical and Expansion Model)",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "splade-v3-new-baselines-for-splade",
+      "type": "paper",
+      "title": "SPLADE v3: New baselines for SPLADE",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval"
+      ]
+    },
+    {
+      "id": "star-adore-optimizing-dense-retrieval-model-training-with-hard-negatives",
+      "type": "paper",
+      "title": "[STAR & ADORE] Optimizing Dense Retrieval Model Training with Hard Negatives",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "syneg-llm-driven-synthetic-hard-negatives-for-dense-retrieval",
+      "type": "paper",
+      "title": "SyNeg: LLM-Driven Synthetic Hard-Negatives for Dense Retrieval",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": []
+    },
+    {
+      "id": "the-curious-case-of-neural-text-degeneration",
+      "type": "paper",
+      "title": "The Curious Case of Neural Text Degeneration",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "the-evolution-of-extreme-llm-compression-from-quip-to-aqlm-with-pv-tuning",
+      "type": "paper",
+      "title": "The Evolution of Extreme LLM Compression: From QuIP to AQLM with PV-Tuning",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "posting",
+        "quantization"
+      ]
+    },
+    {
+      "id": "training-deep-models-faster-with-robust-approximate-importance-sampling",
+      "type": "paper",
+      "title": "Training Deep Models Faster with Robust, Approximate Importance Sampling",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "fundamental"
+      ]
+    },
+    {
+      "id": "tree-attention-topology-aware-decoding-for-long-context-attention-on-gpu-clusters",
+      "type": "paper",
+      "title": "Tree Attention: Topology-aware Decoding for Long-Context Attention on GPU clusters",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "LLM-Component",
+        "inference"
+      ]
+    },
+    {
+      "id": "urp-reranker-improving-passage-retrieval-with-zero-shot-question-generation",
+      "type": "paper",
+      "title": "URP Reranker: Improving Passage Retrieval with Zero-Shot Question Generation",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "information retrieval",
+        "reranker"
+      ]
+    },
+    {
+      "id": "variance-reduction-in-sgd-by-distributed-importance-sampling",
+      "type": "paper",
+      "title": "Variance Reduction in SGD by Distributed Importance Sampling",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "fundamental"
+      ]
+    },
+    {
+      "id": "wavtokenizer-an-efficient-acoustic-discrete-codec-tokenizer-for-audio-language-modeling",
+      "type": "paper",
+      "title": "WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "Audio"
+      ]
+    },
+    {
+      "id": "zero-shot-neural-passage-retrieval-via-domain-targeted-synthetic-question-generation",
+      "type": "paper",
+      "title": "Zero-shot Neural Passage Retrieval via Domain-targeted Synthetic Question Generation",
+      "status": "시작 전",
+      "category": null,
+      "arxiv": null,
+      "tags": [
+        "RAG"
       ]
     },
     {
@@ -26,10 +3427,1108 @@
       ]
     },
     {
+      "id": "..."
+    },
+    {
       "id": "bert"
     }
   ],
   "edges": [
+    {
+      "source": "2d-rope",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "accelerate",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "acurank",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "akvq-not-quant",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "alce",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ance",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "annapproximate-nearest-neighbor",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "aphrodite-engine",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "aqlm",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ar2",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "attention-collections",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "attention-sink",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "autogptq",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "autoround",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "awq",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "axolotl",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "baleen",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "beam-search",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "billm",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "cbdrconfidence-based-dynamic-retrieval",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "chat-template",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "cocondenser",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "colbert-serve",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "colbert-v1",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "colbert-v2-lotte",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "conservative-policy-iteration",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "continuous-batching",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "contrastive-search",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "contriever",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "cope",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "cosent",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "cpocontrastive-preference-optimization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "dapo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "datatrove",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "dcpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ddpg",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "deepseekmath",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "deepspeed",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "df-flops",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "dflash",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "dpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "dprdense-passage-retrieval",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "dr-grpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "duquant",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "efficient-splade",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "efficientqat",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "embeddinggemma",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "erank",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "expanded-splade",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ezaudio",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "fastlane",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "flan",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "flash-attention",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "flexattention",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "fp8-fp4-inference",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "from-pretrained",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "fsdp",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gateddeltanet",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gdpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gecko",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gemini-embedding",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gemma-2",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gguf",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gibbs-inequality",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gptq-lora-alpha-impact",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gptq",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gradcache",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gradient-checkpoint",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "greedy-search",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "group-query-attention",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "group-relative-po-family",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "grpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gs-moe",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gspo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gtpo-grpo-s",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "hard-negative-mining",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "hard-negatives-hard-lessons",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "higgs",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "hnsw",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "hqq",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "icrin-context-re-ranking",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "importance-sampling",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "inference-free-splade",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ivf-pq",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "jina-colbert-v1-2",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "jina-reranker-v3",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "k-means",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "kanana-v",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "kernel-fusion",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "kivi",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "kl-approximation",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "kl-divergence",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "kv-cache",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "kvquant",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "lagas",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "layoutlm",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "lipolistwise-preference-optimization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "llama-1",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "llm-compressor",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "llm2vec",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "llmint8",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "loftq",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "longrope",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "lshlocality-sensitive-hasing",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "luspolength-unbiased-sequence-preference-optimization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "m-rope",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "m3-embedding-bge-m3",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "mamba",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "map",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "memorizing-transformers",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "mgfn",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "mil",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "milvus",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "minimax-m1",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "mipsmaximum-inner-product-search",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "mixture-of-experts",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "mrr",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "mteb",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "mtp",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "multi-head-latent-attention",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "multi-query-attention",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "multi-token-prediction",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "natural-policy-gradient",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ndcg",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "noisy-gradient",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "nv-retriever",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "orpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "pagedattention",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "plaid",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "policy-gradient",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "poly-encoder",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ppo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "propreference-ranking-optimization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "prppairwise-ranking-prompting",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "py-pdf-loader",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "pyramidkv-not-quant",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "qknorm",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "qlora",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "quantization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "quarot",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "quip",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "qwen3-embedding",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rank-r1",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rankgpt-rankllm",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rankzephyr",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ray",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rearank",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "reinceforce-rloo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "retromae",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rlhf",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rlvr",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rocketqa-v1",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rocketqa-v2",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rope-collections",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rope",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rrfreciprocal-rank-fusion",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rrhf",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rtfm",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rvle",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "saposoft-adaptive-policy-optimization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "scaling-laws-for-llms",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "scalrself-calibrated-listwise-reranking",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "sdpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "sentencetransformers",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "simans",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "simpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "sinq",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "slidingwindowattention",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "smoothquant",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "snapkv-not-quant",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "softcapping-qk-norm",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "spark",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "speculative-decoding",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "spinquant",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "splade-v1",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "splade-v2",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "splade",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "spo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "spqr",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ssrl",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "stable-diffusion-3-medium",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "stepwise-think-critique",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "tempo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "tevad",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "tf-idf-bm25",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "tool-retrieval-benckmark",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "top-k-sampling",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "top-p-sampling",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "tpwng",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "treerl",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "treerpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "triton",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "trulens",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "tsa",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "turboquant",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "typical-decoding",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "udapdr",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "umil",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "unbiased-estimators",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ur-dmu",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "vadclip",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "verl",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "vineppo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "weaviate",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "wsal",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "yarn",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "zero",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "검색-엔진을-위한-평가지표들",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "a-bootstrap-perspective-on-stochastic-gradient-descent",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "a-contrastive-framework-for-learning-sentence-representations-from-pairwise-and-triple-wise-perspective-in-angular-space",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "a-visual-guide-to-quantization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "accelerate-large-model-training-using-pytorch-fully-sharded-data-parallel",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "an-explanation-of-in-context-learning-as-implicit-bayesian-inference",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "atlas-few-shot-learning-with-retrieval-augmented-language-models",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "beir-a-heterogenous-benchmark-for-zero-shot-evaluation-of-information-retrieval-models",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "beyond-model-collapse-scaling-up-with-synthesized-data-requires-verification",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "cispoclipped-importance-sampling-policy-optimization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "coco-lm-correcting-and-contrasting-text-sequences-for-language-model-pretraining",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "colbert-v1-v2-lotte",
+      "target": "...",
+      "relation": "references"
+    },
     {
       "source": "colbert",
       "target": "late-interaction",
@@ -49,6 +4548,421 @@
       "source": "colbert",
       "target": "bert",
       "relation": "cites"
+    },
+    {
+      "source": "contrastive-learning-with-hard-negative-samples",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "corrective-rag",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "cot-chain-of-thought-prompting-elicits-reasoning-in-large-language-models",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "dont-say-that-making-inconsistent-dialogue-unlikely-with-unlikelihood-training",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "e5-embeddings-from-bi-directional-encoder-representation",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ehi-end-to-end-learning-of-hierarchical-index-for-efficient-dense-retrieval",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "enhancing-llms-cognition-via-structurization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "fid-leveraging-passage-retrieval-with-generative-models-for-open-domain-question-answering",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "fine-tuning-llms-to-158bit-extreme-quantization-made-easy",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "fit-more-and-train-faster-with-zero-via-deepspeed-and-fairscale",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "from-pytorch-ddp-to-accelerate-to-trainer-mastery-of-distributed-training-with-ease",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gemma4",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "generalized-entropy-regularization-or-theres-nothing-special-about-label-smoothing",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ggml을-이용한-간단한-matmul-샘플-구현",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gpl-generative-pseudo-labeling-for-unsupervised-domain-adaptation-of-dense-retrieval",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "graphrag",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "grpsecretly-a-process-reward-model-is-s",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gte-general-text-embedding",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "gtr-large-dual-encoders-are-generalizable-retrievers",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "how-good-are-llm-based-rerankers",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "how-to-fine-tune-llms-in-2024-with-hugging-face",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "how-to-prune-and-distill-llama-31-8b-to-an-nvidia-llama-31-minitron-4b-model",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "hyde",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ia3-ia³-few-shot-parameter-efficient-fine-tuning-is-better-and-cheaper-than-in-context-learning",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "if-beam-search-is-the-answer-what-was-the-question",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "implementation-matters-in-deep-policy-gradients-a-case-study-on-ppo-and-trpo",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "improving-efficient-neural-ranking-models-with-cross-architecture-knowledge-distillation",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "interleaving-rope-nope-irope-p-rope",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "is-map-decoding-all-you-need-the-inadequacy-of-the-mode-in-neural-machine-translation",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "late-interaction-model",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "learning-to-rank-ltr",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "learning-to-rank-with-top-k-fairness",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "learning-to-reason-in-13-parameters",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "learning-to-retrieve-ltre",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "let-me-speak-freely-a-study-on-the-impact-of-format-restrictions-on-performance-of-large-language-models",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ligerlinearizing-llms-to-gated-recurrent-structures",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "lite-lightweight-scoring-with-token-einsum",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "lora-low-rank-adaptation-of-large-language-models",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "loss-function-for-embedding-model",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "matryoshka-representation-learning",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "memory3-language-modeling-with-explicit-memory",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "methods-of-improving-llm-training-stability-soft-capping-qk-norm",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ms-marco-a-human-generated-machine-reading-comprehension-dataset",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "muvera-multi-vector-retrieval-via-fixed-dimensional-encodings",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "on-nmt-search-errors-and-model-errors-cat-got-your-tongue",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "one-step-off-policy-async-trainer",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "p-roperound-and-round-we-go",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "palm-scaling-language-modeling-with-pathways",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "paq-65-million-probably-asked-questions-and-what-you-can-do-with-them",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "preference-learning-algorithms-do-not-learn-preference-rankings",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ptq-post-training-quantization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "qat-quantization-aware-training",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "qve-synthetic-question-value-estimation-for-domain-adaptation-of-question-answering",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "qwen35",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ra-dit-retrieval-augmented-dual-instruction-tuning",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "raft-adapting-language-model-to-domain-specific-rag",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rag-retrieval-augmented-generation-for-knowledge-intensive-nlp-tasks",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "ragatouile",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "realm-retrieval-augmented-language-model-pre-training",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "retrieval-augmentation-reduces-hallucination-in-conversation",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "retro-improving-language-models-by-retrieving-from-trillions-of-tokens",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "revisiting-the-uniform-information-density-hypothesis",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "rope-scaling-pi-dynamic-ntk-yarn-llama3",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "sail-search-augmented-instruction-learning",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "sam-2-segment-anything-in-images-and-videos",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "sam-3-segment-anything-with-concepts",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "scaling-laws-of-rope-based-extrapolation",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "scheduling",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "self-rag",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "simcls-a-simple-framework-for-contrastive-learning-of-abstractive-summarization",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "sparse-dense-and-attentional-representations-for-text-retrieval",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "splade-sparse-lexical-and-expansion-model",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "splade-v3-new-baselines-for-splade",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "star-adore-optimizing-dense-retrieval-model-training-with-hard-negatives",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "syneg-llm-driven-synthetic-hard-negatives-for-dense-retrieval",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "the-curious-case-of-neural-text-degeneration",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "the-evolution-of-extreme-llm-compression-from-quip-to-aqlm-with-pv-tuning",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "training-deep-models-faster-with-robust-approximate-importance-sampling",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "tree-attention-topology-aware-decoding-for-long-context-attention-on-gpu-clusters",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "urp-reranker-improving-passage-retrieval-with-zero-shot-question-generation",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "variance-reduction-in-sgd-by-distributed-importance-sampling",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "wavtokenizer-an-efficient-acoustic-discrete-codec-tokenizer-for-audio-language-modeling",
+      "target": "...",
+      "relation": "references"
+    },
+    {
+      "source": "zero-shot-neural-passage-retrieval-via-domain-targeted-synthetic-question-generation",
+      "target": "...",
+      "relation": "references"
     },
     {
       "source": "late-interaction",
