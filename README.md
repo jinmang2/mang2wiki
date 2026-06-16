@@ -55,9 +55,9 @@ tags: [retrieval]
 
 ```bash
 pip install -e .
-cp .env.example .env          # NOTION_API_KEY, NOTION_DATABASE_ID 채우기
+cp .env.example .env          # NOTION_API_KEY + NOTION_DATA_SOURCE_ID(신형) 채우기
 
-python scripts/notion_ingest.py            # ① dry-run 미리보기
+python scripts/notion_ingest.py            # ① dry-run 미리보기  (= /notion-ingest 스킬)
 python scripts/notion_ingest.py --write    #    실제 스텁 생성
 python scripts/build_graph.py              # ③ 그래프 + 상태 리포트
 python scripts/arxiv_fetch.py 2004.12832 --node colbert --write   # ②

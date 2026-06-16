@@ -5,7 +5,7 @@ description = "LLM 연구 위키 — Notion 씨앗에서 출발해 논문/개념
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "notion-client>=2.2.1",
+    "notion-client>=2.3.0",  # data_sources(신형 API) 지원 버전 이상
     "arxiv>=2.1.0",
     "pyyaml>=6.0",
     "networkx>=3.0",
