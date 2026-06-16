@@ -15,6 +15,6 @@ venv/
 data/pdfs/
 data/code/
 
-# derived graph 캐시는 커밋함 (graph/graph.json) — sqlite 등 대용량은 제외
-graph/*.sqlite
-graph/*.graphml
+# 로컬 전용 지식 작업공간 — 심층분석/코드/수식/그래프/초안은 공개 git에 올리지 않음
+knowledge/
+graph/

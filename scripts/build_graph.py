@@ -4,7 +4,7 @@
 사용:
     python scripts/build_graph.py
 출력:
-    graph/graph.json   (노드/엣지 — Graph-RAG 및 시각화용)
+    knowledge/graph.json   (노드/엣지 — Graph-RAG 및 시각화용, 로컬 전용/gitignore)
     콘솔 리포트        (노드 수, 상태 분포, dangling 링크 = 다음에 만들 후보)
 """
 
@@ -30,7 +30,7 @@ WIKI = ROOT / "wiki"
 def main() -> int:
     nodes = list(iter_nodes(WIKI))
     g = build_graph(WIKI)
-    out = save_json(g, ROOT / "graph" / "graph.json")
+    out = save_json(g, ROOT / "knowledge" / "graph.json")
 
     by_type = Counter(n.type.value for n in nodes)
     by_status = Counter(n.status.value for n in nodes)
