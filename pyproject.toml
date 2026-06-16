@@ -1,0 +1,29 @@
+[project]
+name = "mang2wiki"
+version = "0.1.0"
+description = "LLM 연구 위키 — Notion 씨앗에서 출발해 논문/개념을 정밀분석하고 Graph-RAG로 관리하는 지식베이스"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "notion-client>=2.2.1",
+    "arxiv>=2.1.0",
+    "pyyaml>=6.0",
+    "networkx>=3.0",
+    "requests>=2.31",
+    "python-dotenv>=1.0",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["mang2wiki*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

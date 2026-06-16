@@ -1,0 +1,20 @@
+# env / secrets
+.env
+.env.local
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# downloaded artifacts (PDF 원문 등은 커밋하지 않음)
+data/pdfs/
+data/code/
+
+# derived graph 캐시는 커밋함 (graph/graph.json) — sqlite 등 대용량은 제외
+graph/*.sqlite
+graph/*.graphml
