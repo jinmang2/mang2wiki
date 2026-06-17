@@ -22,8 +22,9 @@ sys.path.insert(0, str(ROOT))
 
 from rich.console import Console  # noqa: E402
 
+from mang2wiki.paths import wiki_dir  # noqa: E402
+
 console = Console()
-WIKI = ROOT / "wiki"
 ARXIV_ID_RE = re.compile(r"\d{4}\.\d{4,5}(v\d+)?")
 
 
@@ -70,7 +71,7 @@ def main() -> int:
 
         r = results[0]
         aid = r.entry_id.split("/abs/")[-1]
-        path = next(WIKI.rglob(f"{args.node}.md"), None)
+        path = next(wiki_dir().glob(f"**/{args.node}/index.md"), None)
         if not path:
             console.print(f"[red]노드 없음[/red]: {args.node}")
             return 1

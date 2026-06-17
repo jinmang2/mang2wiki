@@ -22,15 +22,16 @@ from rich.table import Table  # noqa: E402
 
 from mang2wiki.frontmatter import iter_nodes  # noqa: E402
 from mang2wiki.graph import build_graph, dangling_links, save_json  # noqa: E402
+from mang2wiki.paths import graph_path, wiki_dir  # noqa: E402
 
 console = Console()
-WIKI = ROOT / "wiki"
 
 
 def main() -> int:
-    nodes = list(iter_nodes(WIKI))
-    g = build_graph(WIKI)
-    out = save_json(g, ROOT / "graph" / "graph.json")
+    wiki = wiki_dir()
+    nodes = list(iter_nodes(wiki))
+    g = build_graph(wiki)
+    out = save_json(g, graph_path())
 
     by_type = Counter(n.type.value for n in nodes)
     by_status = Counter(n.status.value for n in nodes)
@@ -54,7 +55,7 @@ def main() -> int:
         if len(dangling) > 30:
             console.print(f"  ... 외 {len(dangling) - 30}건")
 
-    console.print(f"\n[green]그래프 저장[/green]: {out.relative_to(ROOT)}")
+    console.print(f"\n[green]그래프 저장[/green]: {out}")
     return 0
 
 

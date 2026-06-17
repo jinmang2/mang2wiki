@@ -27,15 +27,15 @@ from rich.console import Console  # noqa: E402
 from mang2wiki.frontmatter import dump_node, load_node  # noqa: E402
 from mang2wiki.models import NodeType  # noqa: E402
 from mang2wiki.notion import fetch_pages  # noqa: E402
+from mang2wiki.paths import wiki_dir  # noqa: E402
 from mang2wiki.templates import stub_body  # noqa: E402
 
 console = Console()
-WIKI = ROOT / "wiki"
 SUBDIR = {NodeType.TOPIC: "topics", NodeType.PAPER: "papers", NodeType.CONCEPT: "concepts"}
 
 
 def target_path(node) -> Path:
-    return WIKI / SUBDIR[node.type] / node.filename
+    return wiki_dir() / SUBDIR[node.type] / node.id / "index.md"
 
 
 def main() -> int:

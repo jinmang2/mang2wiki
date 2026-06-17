@@ -24,15 +24,14 @@ from rich.console import Console  # noqa: E402
 
 from mang2wiki.frontmatter import iter_nodes  # noqa: E402
 from mang2wiki.models import slugify  # noqa: E402
+from mang2wiki.paths import queue_path, wiki_dir  # noqa: E402
 
 console = Console()
-WIKI = ROOT / "wiki"
-QUEUE = ROOT / "queue" / "to_study.md"
 
 
 def existing_ids() -> set[str]:
     ids = set()
-    for n in iter_nodes(WIKI):
+    for n in iter_nodes(wiki_dir()):
         ids.add(n.id)
         if n.arxiv:
             ids.add(n.arxiv)
@@ -78,11 +77,12 @@ def main() -> int:
         lines.append(f"- [ ] **{title}** — arxiv:{aid} ({pub}) · query: `{args.query}`")
 
     if args.write:
-        QUEUE.parent.mkdir(parents=True, exist_ok=True)
-        header = "" if QUEUE.exists() else "# 공부할 거리 (discover 큐)\n\n"
-        with QUEUE.open("a", encoding="utf-8") as f:
+        queue = queue_path()
+        queue.parent.mkdir(parents=True, exist_ok=True)
+        header = "" if queue.exists() else "# 공부할 거리 (discover 큐)\n\n"
+        with queue.open("a", encoding="utf-8") as f:
             f.write(header + f"\n## {datetime.now().date()} · {args.query}\n" + "\n".join(lines) + "\n")
-        console.print(f"\n[green]추가[/green]: {QUEUE.relative_to(ROOT)}")
+        console.print(f"\n[green]추가[/green]: {queue}")
     return 0
 
 
