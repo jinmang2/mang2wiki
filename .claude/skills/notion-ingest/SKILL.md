@@ -1,15 +1,16 @@
 ---
 name: notion-ingest
 description: >-
-  Notion 'Sources' 보드(data source)를 읽어 mang2wiki의 wiki/ 마크다운 스텁으로
-  가져온다. 사용자가 "노션에서 가져와줘 / 보드 동기화 / 새 논문 import / notion ingest"
-  등을 요청하거나, 새 위키 항목을 Notion 씨앗에서 시작하려 할 때 사용. 이미 분석을 채운
-  페이지의 본문은 보존하고 메타데이터(status/category/tags)만 갱신한다.
+  Notion 'Sources' 보드(data source)를 읽어 mang2wiki의 knowledge/wiki/ 노드 폴더
+  (knowledge/wiki/<type>/<id>/index.md)로 가져온다. 사용자가 "노션에서 가져와줘 /
+  보드 동기화 / 새 논문 import / notion ingest" 등을 요청하거나, 새 위키 항목을
+  Notion 씨앗에서 시작하려 할 때 사용. 이미 분석을 채운 페이지의 index.md 본문은
+  보존하고 메타데이터(status/category/tags)만 갱신한다.
 ---
 
 # notion-ingest
 
-Notion 보드를 mang2wiki 위키의 씨앗으로 끌어오는 스킬. 진실의 원천은 `wiki/**.md`이고
+Notion 보드를 mang2wiki 위키의 씨앗으로 끌어오는 스킬. 진실의 원천은 `knowledge/wiki/<type>/<id>/index.md`이고
 Notion은 단방향 import 소스다(되쓰지 않음).
 
 구현 본체는 레포 안에 있다 — 이 스킬은 그 실행을 오케스트레이션한다:
@@ -44,7 +45,7 @@ python scripts/build_graph.py                      # 3) 그래프 인덱스 재�
 
 ## 동작 원칙 (중요)
 
-- **본문 보존**: 이미 존재하는 파일은 frontmatter 메타(status/category/tags)만 머지하고
+- **본문 보존**: 이미 존재하는 노드 폴더의 `index.md`는 frontmatter 메타(status/category/tags)만 머지하고
   본문과 사람이 손댄 분류(type/parents/relations)는 보존한다. `--overwrite` 시에만 덮어씀.
 - **타입 추정**: 컬럼명을 모르므로 property '타입'으로 역할 추론
   (title→제목, status→상태, select→카테고리, multi_select→태그, url→코드 링크).
