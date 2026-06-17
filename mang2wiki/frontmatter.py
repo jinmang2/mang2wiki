@@ -41,13 +41,16 @@ def load_node(path: str | Path) -> WikiNode:
     path = Path(path)
     meta, body = parse(path.read_text(encoding="utf-8"))
 
+    # 노드 폴더 구조: <id>/index.md 이면 id 는 부모 폴더명에서 온다.
+    default_id = path.parent.name if path.stem == "index" else path.stem
+
     known = set(_SCALAR_KEYS) | _LIST_KEYS | {"relations"}
     extra = {k: v for k, v in meta.items() if k not in known}
 
     return WikiNode(
-        id=meta.get("id") or path.stem,
+        id=meta.get("id") or default_id,
         type=NodeType(meta.get("type", "paper")),
-        title=meta.get("title", path.stem),
+        title=meta.get("title", default_id),
         status=Status.coerce(meta.get("status")),
         category=meta.get("category"),
         arxiv=str(meta["arxiv"]) if meta.get("arxiv") is not None else None,
@@ -103,9 +106,9 @@ def dump_node(node: WikiNode, path: str | Path) -> Path:
 
 
 def iter_nodes(wiki_dir: str | Path) -> Iterator[WikiNode]:
-    """wiki/ 아래 모든 마크다운을 WikiNode로. _templates/ 는 제외."""
+    """wiki/<type>/<id>/index.md 각각을 WikiNode로. _templates/ 는 제외."""
     wiki_dir = Path(wiki_dir)
-    for md in sorted(wiki_dir.rglob("*.md")):
+    for md in sorted(wiki_dir.rglob("index.md")):
         if "_templates" in md.parts:
             continue
         yield load_node(md)
