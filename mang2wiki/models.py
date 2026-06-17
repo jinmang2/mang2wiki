@@ -20,7 +20,7 @@ class Status(str, Enum):
     """Notion 상태값과 1:1 매핑 (한글 표기 유지)."""
 
     TODO = "시작 전"
-    IN_PROGRESS = "분석 중"
+    IN_PROGRESS = "검토 대기 중"
     DONE = "완료"
 
     @classmethod
@@ -35,6 +35,7 @@ class Status(str, Enum):
         mapping = {
             "todo": cls.TODO,
             "not started": cls.TODO,
+            "분석 중": cls.IN_PROGRESS,  # legacy 표기 (Notion 보드 호환)
             "in progress": cls.IN_PROGRESS,
             "doing": cls.IN_PROGRESS,
             "done": cls.DONE,
